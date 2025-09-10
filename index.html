@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+
+<!--Corrigido-->
 <head>
     <title>Site Faculdade exemplo</title>
     <meta charset="UTF-8">
@@ -11,10 +13,16 @@
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/">
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="SEO-WebDesignTarefa05/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Faculdade de exemplo</title>
 </head>
 
+<!--HSTS Test-->
+<ifModule mod_headers.c>
+header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains; preload" env=HTTPS
+</ifMOdule>
+
+<!--Corrigir-->
 <body>
 <header>
     <h1>Faculdade Exemplo</h1>
@@ -53,6 +61,7 @@
 
     <section>
         <h2>Infraestrutura</h2>
+        <!--Corrigir campus.jpg-->
         <img src="campus.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
         <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.</p>
         <p>Estamos sempre investindo em tecnologia e inovação.</p>
