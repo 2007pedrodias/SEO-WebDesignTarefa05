@@ -1,3 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background: #004080;
+    color: white;
+}
+
+nav {
+    background: #0066cc;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
 .banner {
     background: gray;
     height: 200px;
