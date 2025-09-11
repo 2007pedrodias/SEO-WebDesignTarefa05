@@ -17,11 +17,6 @@
     <title>Faculdade de exemplo</title>
 </head>
 
-<!--HSTS Test-->
-<ifModule mod_headers.c>
-header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains; preload" env=HTTPS
-</ifMOdule>
-
 <!--Corrigir-->
 <body>
 <header>
@@ -61,8 +56,11 @@ header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains
 
     <section>
         <h2>Infraestrutura</h2>
-        <!--Corrigir campus.jpg-->
+        <!--Corrigido-->
+        <picture>
+        <source type="campus/jpeg" srcset="image.png">
         <img src="campus.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
+        </picture>
         <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.</p>
         <p>Estamos sempre investindo em tecnologia e inovação.</p>
     </section>
@@ -148,6 +146,28 @@ header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains
         <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </p>
 </footer>
-
+<!--HSTS Test-->
+<ifModule mod_headers.c>
+header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains; preload" env=HTTPS
+</ifMOdule>
 </body>
 </html>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.seo-web-design-tarefa05.vercel.app/</loc>
+    <lastmod>2025-09-10</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.seo-web-design-tarefa05.vercel.app/sobre</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.seo-web-design-tarefa05.vercel.app/contato</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>
