@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-
-<!--Corrigido-->
 <head>
     <title>Site Faculdade exemplo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!--Media query-->
+
+    <!-- Media query -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
-    <!--Meta Tags das redes sociais-->
+    
+    <!-- Meta Tags das redes sociais -->
     <meta property="og:title" content="Página web da faculdade exemplo">
     <meta property="og:description" content="Página web da faculdade exemplo, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/">
-    <!--Favicon-->
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Faculdade de exemplo</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HS2MR5GF9L');
+    </script>
+
 </head>
 
-<!--Corrigir-->
 <body>
 <header>
     <h1>Faculdade Exemplo</h1>
@@ -149,8 +160,3 @@
         <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </p>
 </footer>
-
-<!--HSTS Test-->
-<ifModule mod_headers.c>
-header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains; preload" env=HTTPS
-</ifMOdule>
