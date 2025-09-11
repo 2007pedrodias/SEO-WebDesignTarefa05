@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!--Media query-->
+    <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     <!--Meta Tags das redes sociais-->
     <meta property="og:title" content="Página web da faculdade exemplo">
     <meta property="og:description" content="Página web da faculdade exemplo, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
@@ -58,7 +60,7 @@
         <h2>Infraestrutura</h2>
         <!--Corrigido-->
         <picture>
-        <source type="campus/jpeg" srcset="image.png">
+        <source type="campus/webp" srcset="campus.webp">
         <img src="campus.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
         </picture>
         <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.</p>
@@ -124,7 +126,7 @@
 
     <section>
         <h2>Fale Conosco</h2>
-        <form action="thankYou.html" method="post">
+        <form action="agradecimento.html" method="post">
             <label>Nome:</label><br>
             <input type="text" name="nome" required><br><br>
             <label>Email:</label><br>
@@ -146,13 +148,13 @@
         <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </p>
 </footer>
+
 <!--HSTS Test-->
 <ifModule mod_headers.c>
 header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains; preload" env=HTTPS
 </ifMOdule>
-</body>
-</html>
 
+<!--Sitemaps-->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -171,3 +173,7 @@ header alwyass set Strict-Transport-Security "max-age=16070400;includesubDomains
     <priority>0.5</priority>
   </url>
 </urlset>
+
+</body>
+</html>
+
