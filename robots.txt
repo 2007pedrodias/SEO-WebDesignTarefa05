@@ -5,3 +5,5 @@ Disallow: /pages/agradecimento.html
 Disallow: /style.css/
 Disallow: /media.css/
 Disallow: /js/
+Allow: /
+Sitemap: https://seo-web-design-tarefa05.vercel.app/sitemap.xml
