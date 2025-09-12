@@ -10,14 +10,17 @@ header, nav, main, footer {
     padding: 20px;
 }
 
-header {
+.cabecalho {
     background: #004080;
     color: white;
+    text-align: center;
+    font-size:24px
 }
 
 nav {
-    background: #0066cc;
+    background: #236fbb;
     justify-content: center;
+    text-align: center;
 }
 
 nav a:hover {
@@ -28,13 +31,17 @@ nav a:hover {
 }
 
 .banner {
-    background: gray;
+    background-image: url('bannerfacul.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 200px;
     text-align: center;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 section {
@@ -56,5 +63,34 @@ footer {
 }
 
 .estrelas{
-    color: #ffcc00;
+    color:gold;
+}
+
+.depoimento{
+    background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.depoimentos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+#campus
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 30px;
+    top:30px;
 }
