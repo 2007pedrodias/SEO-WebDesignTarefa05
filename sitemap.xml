@@ -29,13 +29,13 @@
 
   <!-- Cursos individuais -->
   <url>
-    <loc>https://seo-web-design-tarefa05.vercel.app/administracao.html</loc>
+    <loc>https://seo-web-design-tarefa05.vercel.app/admin.html</loc>
     <lastmod>2025-09-10</lastmod>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://seo-web-design-tarefa05.vercel.app/cienciadacomputacao.html</loc>
+    <loc>https://seo-web-design-tarefa05.vercel.app/computacao.html</loc>
     <lastmod>2025-09-10</lastmod>
     <priority>0.6</priority>
   </url>

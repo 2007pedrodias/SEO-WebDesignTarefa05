@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Página não encontrada</title>
+  <!--
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,7 +13,7 @@
       background: #f5f5f5;
       padding: 50px;
     }
-    h1 {
+    .error {
       font-size: 3rem;
       color: #ff4757;
     }
@@ -27,7 +29,7 @@
       text-decoration: underline;
     }
   </style>
-
+-->
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
@@ -39,8 +41,42 @@
 
 </head>
 <body>
-  <h1>404</h1>
-  <p>Sentimos muito! A página que você procura não existe.</p>
-  <p><a href="/">Voltar para a página inicial</a></p>
+  <header>
+    <h1>Faculdade Labubônicos</h1>
+    <p>Transformando conhecimento em futuro</p>
+    <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+  </header>
+
+  <nav>
+    <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
+    <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
+    <a href="https://seo-web-design-tarefa05.vercel.app/cursos.html">Cursos oferecidos pela instituição</a>
+    <a href="https://seo-web-design-tarefa05.vercel.app/contato.html">Contato e suporte</a>
+  </nav>
+
+  <div id="error" class="banner">
+    <picture>
+      <source type="image/webp" srcset="404.webp">
+      <img src="404.jpg" alt="Imagem de erro 404">
+    </picture>
+  </div>
+
+  <div class="banner">
+  <h3>Sentimos muito! A página que você procura não existe. <br> <a href="/">Voltar para a página inicial</a></h3>
+  </div>
+
 </body>
+
+<footer>
+    <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
+    <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
+    <p>
+        <a href="https://seo-web-design-tarefa05.vercel.app/sitemap.xml">Sitemap</a> |
+        <a href="https://facens.br/mais-informacoes/politica-de-privacidade/">Política de Privacidade</a> |
+        <a href="https://www.facebook.com/facens/?locale=pt_BR" target="_blank" rel="noopener noreferrer">Facebook</a> |
+        <a href="https://www.instagram.com/instafacens/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+        <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+</footer>
+
 </html>
