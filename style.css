@@ -17,6 +17,7 @@ header {
 
 nav {
     background: #0066cc;
+    justify-content: center;
 }
 
 nav a:hover {
