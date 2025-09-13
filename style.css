@@ -8,6 +8,7 @@ body {
 
 header, nav, main, footer {
     padding: 20px;
+    text-align: justify;
 }
 
 .cabecalho {
@@ -31,11 +32,12 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url('bannerfacul.jpg');
-    background-size: cover;
+    background-image: url('banner.jpg');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
+    width: 100%;
     text-align: center;
     color: white;
     display: flex;
@@ -53,7 +55,7 @@ section {
 }
 
 footer {
-    background: #222;
+    background: #004080;
     color: white;
     text-align: center;
 }
@@ -94,3 +96,31 @@ footer {
     left: 30px;
     top:30px;
 }
+
+#imglab{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#imgbiblioteca{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#imgcampus{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.notrecente{
+    color: rgb(90, 90, 90);
+    font-style: italic;
+}
+
+
