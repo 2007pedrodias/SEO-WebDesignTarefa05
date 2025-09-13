@@ -130,3 +130,9 @@ footer {
 #textopagsobre{
     text-align: justify;
 }
+
+#praticacursos{
+    text-decoration: underline;
+    font-weight: bold;
+    color:#004080
+}
