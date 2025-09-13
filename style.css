@@ -18,6 +18,10 @@ header, nav, main, footer {
     font-size:24px
 }
 
+.rodape a:hover{
+    color: #263a58;
+}
+
 nav {
     background: #236fbb;
     justify-content: center;
@@ -123,4 +127,6 @@ footer {
     font-style: italic;
 }
 
-
+#textopagsobre{
+    text-align: justify;
+}
