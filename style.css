@@ -195,3 +195,18 @@ textarea {
     padding-top: 12px;
 }
 
+#banneradm{
+    background-image: url('banneradm.webp');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
