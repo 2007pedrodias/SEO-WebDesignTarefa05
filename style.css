@@ -142,10 +142,56 @@ footer {
     align-items: center;
     margin-left: 6px; 
     vertical-align: center;
-    margin-bottom:4px;
 }
 
 .iconecurso{
     width: 30px;
     height: 30px;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: url("iconenome.png") no-repeat 9px center;
+    padding-left: 40px;
+    background-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #004080;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: url("iconeemail.png") no-repeat 5px center;
+    padding-left: 36px;
+    background-size: 40px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: url("iconemensagem.png") no-repeat 15px 12px;
+    padding-left: 40px;
+    background-size: 18px;
+    padding-top: 12px;
+}
+
