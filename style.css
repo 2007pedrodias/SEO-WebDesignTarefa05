@@ -131,7 +131,7 @@ footer {
     text-align: justify;
 }
 
-#praticacursos{
+.praticacursos{
     text-decoration: underline;
     font-weight: bold;
     color:#004080
@@ -208,5 +208,19 @@ textarea {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    
+}
+
+#bannercmp{
+    background-image: url('bannercomp.jpeg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
