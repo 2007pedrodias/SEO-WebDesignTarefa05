@@ -136,3 +136,16 @@ footer {
     font-weight: bold;
     color:#004080
 }
+
+.titulocurso{
+    display: inline-block;
+    align-items: center;
+    margin-left: 6px; 
+    vertical-align: center;
+    margin-bottom:4px;
+}
+
+.iconecurso{
+    width: 30px;
+    height: 30px;
+}
