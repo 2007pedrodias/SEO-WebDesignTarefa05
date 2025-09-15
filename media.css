@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 768px) {
-  .meu-cabecalho {
+  .cabecalho {
     flex-direction: column; 
     gap: 20px; 
   }
