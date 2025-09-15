@@ -1,11 +1,5 @@
-    @media (max-width: 828px) { 
-      .logo { max-width: 750px; }
-    }
-
-    @media (min-width: 829px) and (max-width: 1080px) { 
-      .logo { max-width: 900px; }
-    }
-
-    @media (min-width: 1081px) { 
-      .logo { max-width: 1000px; }
+    @media screen and (min-width: 481px) and (max-width: 960px) {
+        #header {
+        display: none;
+        }
     }
