@@ -1,15 +1,16 @@
-@media screen and (max-width: 768px) {
+/* Celular em pé (telas pequenas) */
+@media screen and (max-width: 600px) {
     .cabecalho {
         display: flex;
-        flex-direction: column;   /* Empilha os itens */
-        align-items: center;      /* Centraliza horizontalmente */
-        text-align: center;       /* Centraliza o texto */
+        flex-direction: column;   /* Empilha logo/título/subtítulo */
+        align-items: center;
+        text-align: center;
         padding: 15px;
     }
 
     #logo {
-        position: static !important;   /* Sai do absolute do desktop */
-        margin: 0 auto 10px !important;/* Centraliza e dá espaço abaixo */
+        position: static !important;
+        margin: 0 auto 10px !important;
         display: block;
         max-width: 120px;
         height: auto;
@@ -17,6 +18,40 @@
 
     .cabecalho h1 {
         margin: 5px 0;
-        font-size: 22px;  /* Menor no celular */
+        font-size: 22px;
+    }
+
+    .cabecalho p {
+        margin: 0;
+        font-size: 14px;
+    }
+}
+
+/* Celular deitado ou telas um pouco maiores (tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: row;      /* Logo e textos lado a lado */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: left;
+    }
+
+    #logo {
+        position: static !important;
+        margin: 0 !important;
+        max-width: 100px;
+        height: auto;
+    }
+
+    .cabecalho h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .cabecalho p {
+        font-size: 16px;
+        margin: 0;
     }
 }
