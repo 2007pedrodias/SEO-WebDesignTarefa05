@@ -3,10 +3,3 @@
         display: none;
     }
 }
-
-@media (max-width: 480px) {
-  .cabecalho {
-    flex-direction: column;
-    gap: 20px; 
-    }
-}
