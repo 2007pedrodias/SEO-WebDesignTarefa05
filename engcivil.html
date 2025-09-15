@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sobre Faculdade Labubônicos</title>
+    <!-- Título da página: importante para SEO, contém palavra-chave (Sobre + Faculdade) -->
+    <title>Sobre Faculdade Labubônicos</title> 
+
     <meta charset="UTF-8">
+    <!-- Responsividade: melhora experiência mobile, importante para SEO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta description: ajuda no ranqueamento nos buscadores -->
     <meta name="description" content="Página de Engenharia Civil da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação.">
+
+    <!-- CSS externo: separação de estilo e conteúdo -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Media query -->
+    <!-- Media query para melhor adaptação de layout -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     
-    <!-- Meta Tags das redes sociais -->
+    <!-- Meta Tags para redes sociais (Open Graph) -->
     <meta property="og:title" content="Página Engenharia Civil da faculdade Labubônicos">
     <meta property="og:description" content="Página Engenharia Civil da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/engcivil.html">
 
-    <!-- Favicon -->
+    <!-- Favicon para melhorar identidade visual -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- ❌ Problema: título duplicado, deve haver apenas um <title> -->
     <title>Sobre Faculdade Labubônicos</title>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics: para monitoramento de tráfego -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,15 +41,23 @@
 
 <body>
 <header class="cabecalho">
+    <!-- H1 principal: importante para SEO e clareza do conteúdo -->
+    <h1>Faculdade Labubônicos</h1>
+
+    <!-- Uso de <picture> melhora carregamento e performance da imagem -->
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
     </picture>
-    <h1>Faculdade Labubônicos</h1>
+
+    <!-- Frase institucional: contribui para branding -->
     <p>Transformando conhecimento em futuro</p>
+
+    <!-- ❌ Problema: meta description dentro do <header>, redundante, deve estar só no <head> -->
     <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
 </header>
 
+<!-- Navegação: melhora experiência e rastreamento do Google (SEO interno) -->
 <nav>
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
@@ -49,56 +66,49 @@
 </nav>
 
 <div class="banner">
+    <!-- H2 secundário: mantém hierarquia correta -->
     <h2>Curso de Engenharia Civil</h2>
 </div>
 
 <section>
+    <!-- H2 ajuda no ranqueamento da palavra-chave "Engenharia Civil" -->
     <h2 class="titulodiv">Engenharia Civil</h2>
+
     <h3>Resumo</h3>
+    <!-- Conteúdo claro e objetivo com palavra-chave -->
     <p>Prepara engenheiros para projetar, construir e gerenciar obras com qualidade, inovação e responsabilidade ambiental.</p>
 
     <h3>Corpo docente</h3>
-    <p>
-        <ul>
-            <li>
-                <strong> Prof. Dr. Alexandre Lopes  </strong> – Coordenador. Doutor em Estruturas pela UFRJ.
-            </li>
-            <li>
-                <strong> Profa. Me. Renata Silva </strong> – Sustentabilidade e Construções Verdes.
-            </li>
-            <li>
-                <strong> Prof. Esp. Paulo Martins </strong> – Topografia e Geotecnia.
-            </li>
-        </ul>
-    </p>
+    <!-- Uso de listas melhora organização e SEO semântico -->
+    <ul>
+        <li>
+            <strong> Prof. Dr. Alexandre Lopes  </strong> – Coordenador. Doutor em Estruturas pela UFRJ.
+        </li>
+        <li>
+            <strong> Profa. Me. Renata Silva </strong> – Sustentabilidade e Construções Verdes.
+        </li>
+        <li>
+            <strong> Prof. Esp. Paulo Martins </strong> – Topografia e Geotecnia.
+        </li>
+    </ul>
 
     <h3>Principais disciplinas</h3>
-    <p>
-        <ul id="disciplinas">
-            <li class="itens">
-                Cálculo
-            </li>
-            <li class="itens">
-                Resistência dos Materiais
-            </li>
-            <li class="itens">
-                Estruturas
-            </li>
-            <li class="itens">
-                Hidráulica
-            </li>
-            <li class="itens">
-                Projeto de Obras
-            </li>
-        </ul>
-    </p>
+    <!-- Lista com id e classes (boa prática para SEO e acessibilidade) -->
+    <ul id="disciplinas">
+        <li class="itens">Cálculo</li>
+        <li class="itens">Resistência dos Materiais</li>
+        <li class="itens">Estruturas</li>
+        <li class="itens">Hidráulica</li>
+        <li class="itens">Projeto de Obras</li>
+    </ul>
 
-        <h3>Mensalidade</h3>
-        <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 1300,00</p>
-
+    <h3>Mensalidade</h3>
+    <!-- Destaque visual para informação importante -->
+    <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 1300,00</p>
 </section>
 
 <footer class="rodape">
+    <!-- Footer com dados de contato e links externos melhora SEO local e credibilidade -->
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
     <p>

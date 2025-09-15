@@ -1,26 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
-    <title>Cursos Faculdade Labubônicos</title>
+    <!-- Título otimizado com palavra-chave principal para SEO -->
+    <title>Cursos oferecidos pela Faculdade Labubônicos</title>
+
     <meta charset="UTF-8">
+    <!-- Tag para responsividade em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de cursos da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+
+    <!-- Meta description com palavras-chave de SEO -->
+    <meta name="description" content="Conheça os cursos oferecidos pela Faculdade Labubônicos. Administração, Direito, Medicina, Engenharia Civil e Ciência da Computação.">
+
+    <!-- CSS principal -->
     <link rel="stylesheet" href="style.css">
     
-    <!-- Media query -->
+    <!-- Media query para adaptação a dispositivos intermediários -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     
-    <!-- Meta Tags das redes sociais -->
-    <meta property="og:title" content="Página de cursos da faculdade Labubônicos">
-    <meta property="og:description" content="Página de cursos da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+    <!-- Meta Tags de Open Graph para compartilhamento em redes sociais -->
+    <meta property="og:title" content="Cursos da Faculdade Labubônicos">
+    <meta property="og:description" content="Descubra os cursos disponíveis na Faculdade Labubônicos: Administração, Direito, Engenharia Civil, Medicina e Ciência da Computação.">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/cursos.html">
 
-    <!-- Favicon -->
+    <!-- Favicon para identidade visual do site -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Cursos Faculdade de Labubônicos</title>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics para monitoramento de acessos -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,72 +38,88 @@
 
 <body>
 <header class="cabecalho">
-    <h1>Faculdade Labubônicos</h1>
+    <!-- H1 principal para SEO -->
+    <h1>Faculdade Labubônicos - Cursos</h1>
+
+    <!-- Uso de <picture> para otimização de imagens -->
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
     </picture>
+
     <p>Transformando conhecimento em futuro</p>
-    <meta name="description" content="Página de cursos da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+
+    <!-- Meta description redundante no body (não é necessária, mas mantém intenção SEO) -->
+    <meta name="description" content="Cursos da Faculdade Labubônicos: Administração, Direito, Engenharia Civil, Medicina e Ciência da Computação.">
 </header>
 
+<!-- Menu de navegação com links internos para fortalecer a indexação -->
 <nav>
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
-    <a href="https://seo-web-design-tarefa05.vercel.app/cursos.html">Cursos oferecidos pela instituição</a>
+    <a href="https://seo-web-design-tarefa05.vercel.app/cursos.html">Cursos oferecidos</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/contato.html">Contato e suporte</a>
 </nav>
 
+<!-- Banner com heading H2 -->
 <div class="banner">
     <h2>Cursos da nossa instituição</h2>
 </div>
 
-    <!--Protótipo-->
-    <section>
-        <h2 class="titulodiv">Cursos oferecidos:</h2>
-        <h3 class="titulocurso">Administração</h3>
-        <img src="adm.png" alt="Imagem representando o curso de administração" class="iconecurso">
-        <p> 
-            <strong> Prof. Dr. Ricardo Menezes – Coordenador. Doutor em Gestão de Negócios pela FGV. </strong>
-            <br> Forma líderes capazes de gerir empresas e organizações com foco em inovação, mercado global e sustentabilidade.
-            <br> <a href="https://seo-web-design-tarefa05.vercel.app/admin.html">Saiba mais sobre o curso aqui!</a>
-        </p>
+<!-- Conteúdo principal: listagem dos cursos -->
+<section>
+    <!-- H2 reforçando palavra-chave -->
+    <h2 class="titulodiv">Cursos oferecidos:</h2>
 
-        <h3 class="titulocurso">Ciência da Computação</h3>
-        <img src="cienciadacomp.png" alt="Imagem representando o curso de ciência da computação" class="iconecurso">
-        <p> 
-            <strong> Prof. Dr. Thiago Ribeiro – Coordenador. Doutor em Inteligência Artificial pela USP. </strong>
-            <br> Prepara profissionais para desenvolver sistemas, softwares e soluções de alta complexidade em tecnologia da informação.
-            <br> <a href="https://seo-web-design-tarefa05.vercel.app/computacao.html">Saiba mais sobre o curso aqui!</a>
-        </p>
+    <!-- Curso de Administração -->
+    <h3 class="titulocurso">Administração</h3>
+    <img src="adm.png" alt="Imagem representando o curso de Administração" class="iconecurso">
+    <p> 
+        <strong> Prof. Dr. Ricardo Menezes – Coordenador. Doutor em Gestão de Negócios pela FGV. </strong>
+        <br> Forma líderes capazes de gerir empresas e organizações com foco em inovação, mercado global e sustentabilidade.
+        <br> <a href="https://seo-web-design-tarefa05.vercel.app/admin.html">Saiba mais sobre o curso de Administração</a>
+    </p>
 
-        <h3 class="titulocurso">Direito</h3>
-        <img src="direito.png" alt="Imagem representando o curso de direito" class="iconecurso">
-        <p> 
-            <strong> Prof. Dr. Marcos Tavares – Coordenador. Doutor em Direito Constitucional. </strong>
-            <br> Forma bacharéis em Direito preparados para atuar em advocacia, magistratura, promotoria e demais áreas jurídicas.
-            <br> <a href="https://seo-web-design-tarefa05.vercel.app/direito.html">Saiba mais sobre o curso aqui!</a>
-        </p>
+    <!-- Curso de Ciência da Computação -->
+    <h3 class="titulocurso">Ciência da Computação</h3>
+    <img src="cienciadacomp.png" alt="Imagem representando o curso de Ciência da Computação" class="iconecurso">
+    <p> 
+        <strong> Prof. Dr. Thiago Ribeiro – Coordenador. Doutor em Inteligência Artificial pela USP. </strong>
+        <br> Prepara profissionais para desenvolver sistemas, softwares e soluções de alta complexidade em tecnologia da informação.
+        <br> <a href="https://seo-web-design-tarefa05.vercel.app/computacao.html">Saiba mais sobre o curso de Ciência da Computação</a>
+    </p>
 
-        <h3 class="titulocurso">Engenharia Civil</h3>
-        <img src="engcivil.png" alt="Imagem representando o curso de engenharia civil" class="iconecurso">
-        <p> 
-            <strong> Prof. Dr. Alexandre Lopes – Coordenador. Doutor em Estruturas pela UFRJ. </strong>
-            <br> Prepara engenheiros para projetar, construir e gerenciar obras com qualidade, inovação e responsabilidade ambiental.
-            <br> <a href="https://seo-web-design-tarefa05.vercel.app/engcivil.html">Saiba mais sobre o curso aqui!</a>
-        </p>
+    <!-- Curso de Direito -->
+    <h3 class="titulocurso">Direito</h3>
+    <img src="direito.png" alt="Imagem representando o curso de Direito" class="iconecurso">
+    <p> 
+        <strong> Prof. Dr. Marcos Tavares – Coordenador. Doutor em Direito Constitucional. </strong>
+        <br> Forma bacharéis em Direito preparados para atuar em advocacia, magistratura, promotoria e demais áreas jurídicas.
+        <br> <a href="https://seo-web-design-tarefa05.vercel.app/direito.html">Saiba mais sobre o curso de Direito</a>
+    </p>
 
-        <h3 class="titulocurso">Medicina</h3>
-        <img src="medicina.png" alt="Imagem representando o curso de medicina" class="iconecurso">
-        <p> 
-            <strong> Profa. Dra. Helena Costa – Coordenadora. Doutora em Clínica Médica pela USP. </strong>
-            <br> Curso completo e integrado que alia teoria e prática em um hospital-escola de referência, formando médicos generalistas e especialistas.
-            <br> <a href="https://seo-web-design-tarefa05.vercel.app/med.html">Saiba mais sobre o curso aqui!</a>
-        </p>
-    </section>
+    <!-- Curso de Engenharia Civil -->
+    <h3 class="titulocurso">Engenharia Civil</h3>
+    <img src="engcivil.png" alt="Imagem representando o curso de Engenharia Civil" class="iconecurso">
+    <p> 
+        <strong> Prof. Dr. Alexandre Lopes – Coordenador. Doutor em Estruturas pela UFRJ. </strong>
+        <br> Prepara engenheiros para projetar, construir e gerenciar obras com qualidade, inovação e responsabilidade ambiental.
+        <br> <a href="https://seo-web-design-tarefa05.vercel.app/engcivil.html">Saiba mais sobre o curso de Engenharia Civil</a>
+    </p>
+
+    <!-- Curso de Medicina -->
+    <h3 class="titulocurso">Medicina</h3>
+    <img src="medicina.png" alt="Imagem representando o curso de Medicina" class="iconecurso">
+    <p> 
+        <strong> Profa. Dra. Helena Costa – Coordenadora. Doutora em Clínica Médica pela USP. </strong>
+        <br> Curso completo que alia teoria e prática em um hospital-escola de referência, formando médicos generalistas e especialistas.
+        <br> <a href="https://seo-web-design-tarefa05.vercel.app/med.html">Saiba mais sobre o curso de Medicina</a>
+    </p>
+</section>
 
 </body>
 
+<!-- Rodapé com links úteis para SEO e usabilidade -->
 <footer class="rodape">
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>

@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Site Faculdade Labubônicos</title>
+    <!-- Título da página otimizado para SEO: inclui o nome da instituição -->
+    <title>Site Faculdade Labubônicos</title> 
+
     <meta charset="UTF-8">
+    <!-- Meta viewport para garantir responsividade em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta description importante para SEO: descreve o conteúdo da página -->
     <meta name="description" content="Página principal da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+
+    <!-- Folhas de estilo externas (boa prática separar CSS do HTML) -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     
-    <!-- Media query -->
+    <!-- Media query para melhor adaptação a diferentes telas -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     
-    <!-- Meta Tags das redes sociais -->
+    <!-- Meta Tags para redes sociais (Open Graph): ajudam no compartilhamento e visualização em Facebook, LinkedIn etc. -->
     <meta property="og:title" content="Página principal da faculdade Labubônicos">
     <meta property="og:description" content="Página principal da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/">
 
-    <!-- Favicon -->
+    <!-- Favicon melhora a identidade visual e usabilidade do site -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Segundo título redundante (não recomendado, pode confundir SEO) -->
     <title>Faculdade de Labubônicos</title>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics para monitorar acessos e engajamento -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -33,14 +42,23 @@
 
 <body>
 <header class="cabecalho">
+    <!-- Título principal (H1) ajuda no SEO ao definir o assunto da página -->
+    <h1>Faculdade Labubônicos</h1>
+
+    <!-- Uso de <picture> para imagens mais leves e adaptadas (melhora performance e SEO) -->
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
     </picture>
-    <h1>Faculdade Labubônicos</h1>
+
+    <!-- Frase institucional ajuda no branding e pode ser usada em rich snippets -->
     <p>Transformando conhecimento em futuro</p>
+
+    <!-- Meta description dentro do <header> é redundante (já existe no <head>) -->
+    <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
 </header>
 
+<!-- Navegação estruturada com links internos e externos (melhora rastreamento e SEO interno) -->
 <nav>
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
@@ -49,10 +67,12 @@
 </nav>
 
 <div class="banner">
+    <!-- Uso de H2 mantém hierarquia dos títulos -->
     <h2>Bem-vindo à nossa instituição</h2>
 </div>
 
 <main>
+    <!-- Seções com H2 e conteúdo bem estruturado ajudam no SEO semântico -->
     <section>
         <h2 class="titulodiv">Quem Somos</h2> 
         <p>Desde 1998, a Faculdade Labubônicos é referência em ensino superior, unindo tradição e inovação. Com infraestrutura moderna, corpo docente qualificado e cinco cursos de excelência — Administração, Ciência da Computação, Direito, Engenharia Civil e Medicina — a instituição prepara profissionais completos para o mercado de trabalho e para a vida.</p>
@@ -61,6 +81,7 @@
 
     <section>
         <h2 class="titulodiv">Nossos Cursos</h2>
+        <!-- Lista com links internos para páginas específicas dos cursos (SEO de palavras-chave) -->
         <ul>
             <li><a href="https://seo-web-design-tarefa05.vercel.app/admin.html">Administração</a></li>
             <li><a href="https://seo-web-design-tarefa05.vercel.app/computacao.html">Ciência da Computação</a></li>
@@ -72,10 +93,10 @@
 
     <section>
         <h2 class="titulodiv">Campus</h2>
-        <!--Imagem do campus-->
+        <!-- Imagem otimizada com alt descritivo (importante para acessibilidade e SEO) -->
         <picture>
         <source type="image/webp" srcset="campus.webp">
-        <img id="campus" src="campus.jpg" alt="Entrada da faculdade com alguns alunos. Os espaços vazios sào preenchidos por grama e flores.">
+        <img id="campus" src="campus.jpg" alt="Entrada da faculdade com alguns alunos. Os espaços vazios são preenchidos por grama e flores.">
         </picture>
         <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.
         Estamos sempre investindo em tecnologia e inovação. Para ver um pouco mais dele e saber mais sobre a faculdade, 
@@ -84,8 +105,9 @@
 
     <section>
         <h2 class="titulodiv">Corpo Docente</h2>
+        <!-- Inclusão de informações com nomes e qualificações aumenta credibilidade -->
         <p>Nossos professores são mestres e doutores em suas áreas, com experiência acadêmica e atuação no mercado. 
-            Contamos com especialistas em <br> <br>
+            <br><br>
             <strong>Prof. Dr. Ricardo Menezes </strong>– Coordenador. Doutor em Gestão de Negócios pela FGV, <br>
             <strong>Prof. Dr. Thiago Ribeiro </strong>– Coordenador. Doutor em Inteligência Artificial pela USP, <br>
             <strong>Prof. Dr. Marcos Tavares </strong>– Coordenador. Doutor em Direito Constitucional, <br>
@@ -94,10 +116,10 @@
         </p>
     </section>
 
-     <section>
-
+    <section>
         <h2 class="titulodiv">Notícias Recentes</h2>
 
+        <!-- Uso de schema.org (NewsArticle) ajuda no SEO para rich snippets -->
         <article itemscope itemtype="https://schema.org/NewsArticle">
             <h3 itemprop="headline">Semana Acadêmica 2025</h3>
             <p class="notrecente" itemprop="description">
@@ -134,51 +156,42 @@
                 Engenharia Civil realiza parceria com construtoras locais para estágios em obras sustentáveis
             </p>
         </article>
-
-
-     </section>
+    </section>
 
     <section>
-    <h2 class="titulodiv">Depoimentos</h2>
+        <h2 class="titulodiv">Depoimentos</h2>
 
-    <div class="depoimentos-container">
+        <div class="depoimentos-container">
 
-         <!-- Depoimento 1 -->
-        <div class="depoimento" itemscope itemtype="https://schema.org/Review">
-            <p itemprop="reviewBody" >“Aqui encontrei professores incríveis e já estou estagiando em uma startup graças ao networking da faculdade.”</p>
-            <div>
-                <footer > <span itemprop="author">Maria Clara (Ciência da Computação)</span></footer>
+            <!-- Uso de schema.org Review para depoimentos ajuda no SEO e gera rich snippets -->
+            <div class="depoimento" itemscope itemtype="https://schema.org/Review">
+                <p itemprop="reviewBody">“Aqui encontrei professores incríveis e já estou estagiando em uma startup graças ao networking da faculdade.”</p>
+                <footer><span itemprop="author">Maria Clara (Ciência da Computação)</span></footer>
                 <div class="estrelas">★★★★★</div>
+                <meta itemprop="reviewRating" content="5">
             </div>
-            <meta itemprop="reviewRating" content="5">
-        </div>
 
-        <!-- Depoimento 2 -->
-        <div class="depoimento" itemscope itemtype="https://schema.org/Review">
-            <p itemprop="reviewBody" >“A infraestrutura dos laboratórios é um diferencial enorme, realmente prepara para o mercado.”</p>
-            <div>
-                <footer > <span itemprop="author">Lucas Andrade (Engenharia Civil)</span></footer>
+            <div class="depoimento" itemscope itemtype="https://schema.org/Review">
+                <p itemprop="reviewBody">“A infraestrutura dos laboratórios é um diferencial enorme, realmente prepara para o mercado.”</p>
+                <footer><span itemprop="author">Lucas Andrade (Engenharia Civil)</span></footer>
                 <div class="estrelas">★★★★★</div>
+                <meta itemprop="reviewRating" content="5">
             </div>
-            <meta itemprop="reviewRating" content="5">
-        </div>
 
-        <!-- Depoimento 3 -->
-        <div class="depoimento" itemscope itemtype="https://schema.org/Review">
-            <p itemprop="reviewBody" >“O hospitalescola me deu uma experiência prática desde o primeiro ano. Isso faz toda a diferença.”</p>
-            <div>
-                <footer > <span itemprop="author">Ana Beatriz (Medicina)</span></footer>
+            <div class="depoimento" itemscope itemtype="https://schema.org/Review">
+                <p itemprop="reviewBody">“O hospitaiscola me deu uma experiência prática desde o primeiro ano. Isso faz toda a diferença.”</p>
+                <footer><span itemprop="author">Ana Beatriz (Medicina)</span></footer>
                 <div class="estrelas">★★★★★</div>
+                <meta itemprop="reviewRating" content="5">
             </div>
-            <meta itemprop="reviewRating" content="5">
-        </div>
 
-    </div>
-</section>
+        </div>
+    </section>
 
 </main>
 
 <footer class="rodape">
+    <!-- Footer com informações de contato e links para políticas, sitemap e redes sociais (ótimo para SEO local e credibilidade) -->
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
     <p>

@@ -1,114 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sobre Faculdade Labubônicos</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de Administração da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação.">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <!-- charset bem definido, evita problemas de indexação de caracteres -->
 
-    <!-- Media query -->
-    <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
-    
-    <!-- Meta Tags das redes sociais -->
-    <meta property="og:title" content="Página Administração da faculdade Labubônicos">
-    <meta property="og:description" content="Página Administração da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
-    <meta property="og:image" content="icone.png">
-    <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/admin.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- torna o site responsivo (mobile-friendly), fator importante para SEO -->
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Sobre Faculdade Labubônicos</title>
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-HS2MR5GF9L');
-    </script>
+  <title>Página agradecimento</title>
+  
+  <!-- Google Analytics -->
+  <!-- permite acompanhar tráfego e comportamento, ajudando na estratégia de SEO -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HS2MR5GF9L');
+  </script>
 </head>
 
 <body>
-<header class="cabecalho">
+  <header>
+    <header class="cabecalho">
+    <h1>Faculdade Labubônicos</h1>
+    <!-- bom uso do <h1>, define o tema principal da página -->
+
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
+        <!-- uso de alt na imagem, importante para SEO e acessibilidade -->
     </picture>
-    <h1>Faculdade Labubônicos</h1>
     <p>Transformando conhecimento em futuro</p>
+
     <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+    
 </header>
 
-<nav>
+  <nav>
+    <!-- links internos ajudam na navegação e estruturação do site -->
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/cursos.html">Cursos oferecidos pela instituição</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/contato.html">Contato e suporte</a>
-</nav>
+  </nav>
 
-<div class="banner">
-    <h2>Curso de Administração</h2>
-</div>
-
-<section>
-    <h2 class="titulodiv">Administração</h2>
-    <h3>Resumo</h3>
-    <p>Forma líderes capazes de gerir empresas e organizações com foco em inovação, mercado global e sustentabilidade.</p>
-
-    <h3>Corpo docente</h3>
-    <p>
-        <ul>
-            <li>
-                <strong> Dr. Ricardo Menezes </strong> – Coordenador. Doutor em Gestão de Negócios pela FGV.
-            </li>
-            <li>
-                <strong> Profa. Me. Juliana Castro </strong> – Especialista em Marketing Digital.
-            </li>
-            <li>
-                <strong> Prof. Esp. André Oliveira </strong> – Gestão Financeira e Controladoria.
-            </li>
-        </ul>
-    </p>
-
-    <h3>Principais disciplinas</h3>
-    <p>
-        <ul id="disciplinas">
-            <li class="itens">
-                Gestão de Pessoas
-            </li>
-            <li class="itens">
-                Finanças Corporativas
-            </li>
-            <li class="itens">
-                Marketing Estratégico
-            </li>
-            <li class="itens">
-                Empreendedorismo
-            </li>
-            <li class="itens">
-                Análise de Mercado
-            </li>
-        </ul>
-    </p>
-
-        <h3>Mensalidade</h3>
-        <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 950,00</p>
-
-</section>
+  <div class="banner">
+    <h3>Muito obrigada por entrar em contato, <br> 
+        te retornaremos o mais breve possível! <br>
+        <br> <a href="/"> Página inicial </a>
+    </h3>
+    
+  </div>
 
 </body>
 
-<footer class="rodape">
+<footer>
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
     <p>
         <a href="https://seo-web-design-tarefa05.vercel.app/sitemap.xml">Sitemap</a> |
+        <!-- sitemap ajuda o Google a indexar o site -->
+
         <a href="https://facens.br/mais-informacoes/politica-de-privacidade/">Política de Privacidade</a> |
+        <!--política de privacidade transmite confiança e pode influenciar SEO -->
+
         <a href="https://www.facebook.com/facens/?locale=pt_BR" target="_blank" rel="noopener noreferrer">Facebook</a> |
         <a href="https://www.instagram.com/instafacens/" target="_blank" rel="noopener noreferrer">Instagram</a> |
         <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <!--links externos para redes sociais reforçam a autoridade e presença digital -->
     </p>
 </footer>
 

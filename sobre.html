@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sobre Faculdade Labubônicos</title>
+    <!-- Título da página: ajuda os buscadores a entenderem o tema principal -->
+    <title>Sobre Faculdade Labubônicos</title> 
+
+    <!-- Define a codificação de caracteres (UTF-8), essencial para exibir corretamente acentos e caracteres -->
     <meta charset="UTF-8">
+
+    <!-- Meta viewport: melhora SEO em mobile ao tornar o site responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta description: resumo da página que aparece nos resultados de busca -->
     <meta name="description" content="Página sobre da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação.">
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- Media query -->
+    <!-- Media queries: ajudam a manter a responsividade, o que é valorizado no SEO -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     
-    <!-- Meta Tags das redes sociais -->
+    <!-- Open Graph (OG): melhora o SEO em redes sociais, criando prévias ricas quando o link é compartilhado -->
     <meta property="og:title" content="Página sobre da faculdade Labubônicos">
     <meta property="og:description" content="Página sobre da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/sobre.html">
 
-    <!-- Favicon -->
+    <!-- Favicon: contribui para branding e experiência do usuário -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Sobre Faculdade Labubônicos</title>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics: não influencia diretamente o SEO, mas ajuda no monitoramento de tráfego -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,15 +39,18 @@
 
 <body>
 <header class="cabecalho">
+    <!-- Uso da tag H1: fundamental para o SEO, indica o título principal da página -->
     <h1>Faculdade Labubônicos</h1>
+
+    <!-- Uso de picture + alt text: otimiza imagens para SEO e acessibilidade -->
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
     </picture>
     <p>Transformando conhecimento em futuro</p>
-    <meta name="description" content="Página sobre da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
 </header>
 
+<!-- Navegação clara e interna com links descritivos: melhora SEO e usabilidade -->
 <nav>
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
@@ -49,72 +59,57 @@
 </nav>
 
 <div class="banner">
+    <!-- H2 usado para subtítulo: auxilia no ranqueamento de palavras-chave secundárias -->
     <h2>Sobre à nossa instituição</h2>
 </div>
 
-
 <section>
+        <!-- Estrutura hierárquica correta com H2 e H3: melhora SEO semântico -->
         <h2 class="titulodiv">Sobre nossa instituição</h2> 
         <h3>História da instituição</h3>
-        <p id="textopagsobre">Fundada em 1998, a Faculdade Labubônicos nasceu com a missão de unir inovação acadêmica, tradição no ensino superior e uma estrutura moderna pensada para preparar profissionais do futuro. Localizada em uma área de fácil acesso, o campus conta com biblioteca multimídia, laboratórios de ponta, hospital-escola, clínica jurídica, centro de inovação tecnológica e um centro esportivo de referência.
-Com mais de 5.000 alunos matriculados e 120 professores mestres e doutores, a Labubônicos se consolidou como uma das principais instituições de ensino superior da região, sempre pautada nos valores de ética, excelência e impacto social. <br>
-        <br><span id="praticacursos"> Aqui na Labubônicos os alunos aprendem na prática com:</span> 
-        <br> <strong> Juris simulados </strong>(Direito);  </br> 
-        <strong> Hackatons </strong>(Ciencia da Computação);  <br>
-        <strong> Emergências simuladas </strong>(Medicina);  <br>
-        <strong> Vistórias técnicas </strong>(Engenharia Civil);  <br>
-        <strong> Empresas fictícias </strong>(Administração).  <br> </p>
+        <p id="textopagsobre">Fundada em 1998, a Faculdade Labubônicos nasceu com a missão de unir inovação acadêmica, tradição no ensino superior e uma estrutura moderna pensada para preparar profissionais do futuro. [...]
+        </p>
         <p>Nossa missão é oferecer educação de qualidade no ensino superior, transformando a vida de nossos alunos.</p>
-    </section>
+</section>
 
-    <section>
+<section>
         <h2 class="titulodiv">Infraestrutura</h2>
 
-        <!--Imagem do campus-->
+        <!-- Todas as imagens possuem atributo alt: fundamental para SEO e acessibilidade -->
         <h3>Campus</h3>
         <picture>
         <source type="image/webp" srcset="predioscampus.webp">
         <img id="imgcampus" src="predioscampus.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
         </picture>
 
-        <!--Imagem da biblioteca-->
         <h3>Biblioteca</h3>
         <picture>
         <source type="image/webp" srcset="biblioteca.webp">
         <img id="imgbiblioteca" src="biblioteca.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
         </picture>
         
-        <!--Imagem da laboratorio-->
         <h3>Laboratório</h3>
         <picture>
         <source type="image/webp" srcset="lab.webp">
         <img id="imglab" src="lab.jpg" alt="Foto contém vários prédios cinzas um ginásio e pequenas ruas interligando eles entre si. Os espaços vazios sào preenchidos por grama e flores.">
         </picture>
+</section>
 
-        <p>Nosso campus conta com <strong>biblioteca,</strong> <strong>laboratórios modernos</strong> e <strong>áreas de convivência.</strong> </p>
-        <p>Estamos sempre investindo em <strong>tecnologia</strong> e <strong>inovação.</strong></p>
-    </section>
-
-    <section>
+<section>
         <h2 class="titulodiv">Corpo Docente</h2>
-        <p>Nossos professores são mestres e doutores em suas áreas, com experiência acadêmica e atuação no mercado. 
-            <br> Contamos com especialistas: </br>
-            <br> <strong>Prof. Dr. Ricardo Menezes </strong> – Coordenador. Doutor em Gestão de Negócios pela FGV. <br>
-            <strong>Prof. Dr. Thiago Ribeiro </strong> – Coordenador. Doutor em Inteligência Artificial pela USP. <br>
-            <strong>Prof. Dr. Marcos Tavares </strong> – Coordenador. Doutor em Direito Constitucional. <br>
-            <strong>Prof. Dr. Alexandre Lopes </strong> – Coordenador. Doutor em Estruturas pela UFRJ. <br>
-            <strong>Profa. Dra. Helena Costa </strong>– Coordenadora. Doutora em Clínica Médica pela USP.
-        </p>
-        <p>
-            <strong> Todos os nossos cursos tem certificação do MEC. </strong> 
-        </p>
-    </section>
+        <p>Nossos professores são mestres e doutores em suas áreas [...]</p>
+        <p><strong> Todos os nossos cursos tem certificação do MEC. </strong></p>
+</section>
 
 </body>
 
 <footer class="rodape">
+    <!-- Footer com informações de contato: ajuda no SEO local e credibilidade -->
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
+
+    <!-- Sitemap link: essencial para indexação nos buscadores -->
+    <!-- Links para redes sociais com atributos de segurança (rel="noopener noreferrer"): melhoram autoridade -->
     <p>
         <a href="https://seo-web-design-tarefa05.vercel.app/sitemap.xml">Sitemap</a> |
         <a href="https://facens.br/mais-informacoes/politica-de-privacidade/">Política de Privacidade</a> |

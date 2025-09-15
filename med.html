@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Título da página: usado pelos buscadores como fator de ranqueamento -->
     <title>Sobre Faculdade Labubônicos</title>
+
+    <!-- Define a codificação correta de caracteres -->
     <meta charset="UTF-8">
+
+    <!-- Garante responsividade em dispositivos móveis (importante para SEO) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta description: aparece nos resultados de busca e influencia o CTR -->
     <meta name="description" content="Página de Medicina da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação.">
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- Media query -->
+    <!-- Media query: reforça a responsividade (fator valorizado pelo Google) -->
     <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
     
-    <!-- Meta Tags das redes sociais -->
+    <!-- Open Graph: melhora a pré-visualização em redes sociais, contribuindo para SEO off-page -->
     <meta property="og:title" content="Página Medicina da faculdade Labubônicos">
     <meta property="og:description" content="Página Medicina da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     <meta property="og:image" content="icone.png">
     <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/med.html">
 
-    <!-- Favicon -->
+    <!-- Favicon: ajuda na identidade visual e experiência do usuário -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>Sobre Faculdade Labubônicos</title>
 
-    <!-- Google Analytics -->
+    <!-- Google Analytics: não influencia SEO diretamente, mas ajuda a monitorar o tráfego -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,15 +39,18 @@
 
 <body>
 <header class="cabecalho">
+    <!-- H1: título principal da página, essencial para SEO semântico -->
+    <h1>Faculdade Labubônicos</h1>
+
+    <!-- Uso de picture + alt na imagem: otimiza SEO e acessibilidade -->
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
     </picture>
-    <h1>Faculdade Labubônicos</h1>
     <p>Transformando conhecimento em futuro</p>
-    <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
 </header>
 
+<!-- Navegação clara com links internos: melhora rastreamento pelos buscadores -->
 <nav>
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
@@ -49,63 +59,49 @@
 </nav>
 
 <div class="banner">
+    <!-- H2 com palavra-chave ("Medicina"): ajuda no ranqueamento da página específica do curso -->
     <h2>Curso de Medicina</h2>
 </div>
 
 <section>
+    <!-- Estrutura semântica com H2 e H3: melhora a hierarquia do conteúdo -->
     <h2 class="titulodiv">Medicina</h2>
     <h3>Resumo</h3>
-    <p>PCurso completo e integrado que alia teoria e prática em um hospital-escola de referência, formando médicos generalistas e especialistas.</p>
+    <p>Curso completo e integrado que alia teoria e prática em um hospital-escola de referência, formando médicos generalistas e especialistas.</p>
 
     <h3>Corpo docente</h3>
-    <p>
-        <ul>
-            <li>
-                <strong> Profa. Dra. Helena Costa  </strong> – Coordenadora. Doutora em Clínica Médica pela USP.
-            </li>
-            <li>
-                <strong> Prof. Dr. Gustavo Amaral </strong> – Cirurgia Geral.
-            </li>
-            <li>
-                <strong> Profa. Me. Lívia Rochas </strong> – Pediatria.
-            </li>
-        </ul>
-    </p>
+    <!-- Lista não ordenada: organiza o conteúdo, facilitando a leitura pelos buscadores -->
+    <ul>
+        <li><strong> Profa. Dra. Helena Costa </strong> – Coordenadora. Doutora em Clínica Médica pela USP.</li>
+        <li><strong> Prof. Dr. Gustavo Amaral </strong> – Cirurgia Geral.</li>
+        <li><strong> Profa. Me. Lívia Rochas </strong> – Pediatria.</li>
+    </ul>
 
     <h3>Principais disciplinas</h3>
-    <p>
-        <ul id="disciplinas">
-            <li class="itens">
-                Anatomia
-            </li>
-            <li class="itens">
-                Fisiologia            
-            </li>
-            <li class="itens">
-                Clínica Médica
-            </li>
-            <li class="itens">
-                Cirurgia
-            </li>
-            <li class="itens">
-                Pediatria
-            </li>
-            <li class="itens">
-                Medicina Preventiva
-            </li>
-        </ul>
-    </p>
+    <!-- Lista com id e classes: permite destacar palavras-chave relacionadas ao curso -->
+    <ul id="disciplinas">
+        <li class="itens">Anatomia</li>
+        <li class="itens">Fisiologia</li>
+        <li class="itens">Clínica Médica</li>
+        <li class="itens">Cirurgia</li>
+        <li class="itens">Pediatria</li>
+        <li class="itens">Medicina Preventiva</li>
+    </ul>
 
-        <h3>Mensalidade</h3>
-        <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 5.500,00</p>
-
+    <h3>Mensalidade</h3>
+    <!-- Texto com destaque em strong e span: reforça a informação importante -->
+    <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 5.500,00</p>
 </section>
 
 </body>
 
 <footer class="rodape">
+    <!-- Footer com informações de contato: melhora SEO local -->
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
+
+    <!-- Sitemap ajuda os mecanismos de busca a indexarem o site -->
+    <!-- Links externos para redes sociais com rel seguro aumentam autoridade -->
     <p>
         <a href="https://seo-web-design-tarefa05.vercel.app/sitemap.xml">Sitemap</a> |
         <a href="https://facens.br/mais-informacoes/politica-de-privacidade/">Política de Privacidade</a> |
