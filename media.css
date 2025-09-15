@@ -1,5 +1,22 @@
-    @media screen and (min-width: 481px) and (max-width: 960px) {
-        #header {
-        display: none;
-        }
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;   /* Empilha os itens */
+        align-items: center;      /* Centraliza horizontalmente */
+        text-align: center;       /* Centraliza o texto */
+        padding: 15px;
     }
+
+    #logo {
+        position: static !important;   /* Sai do absolute do desktop */
+        margin: 0 auto 10px !important;/* Centraliza e dá espaço abaixo */
+        display: block;
+        max-width: 120px;
+        height: auto;
+    }
+
+    .cabecalho h1 {
+        margin: 5px 0;
+        font-size: 22px;  /* Menor no celular */
+    }
+}
