@@ -195,4 +195,9 @@ textarea {
     padding-top: 12px;
 }
 
-
+.erro {
+    background: #004080;
+    color: white;
+    text-align: center;
+    
+}

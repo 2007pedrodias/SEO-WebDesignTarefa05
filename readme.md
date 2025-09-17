@@ -36,7 +36,7 @@ Além disso, fizemos alterações no HTML e no CSS do projeto para maior estiliz
 #### LinkedIn - Aylla Alves
 [![LinkedIn - Aylla Alves](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aylla-alves-206629251/)
 #### LinkedIn - Letícia Lopes
-[![LinkedIn - Letícia Lopes](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/leticia-malagola-lopes)
+[![LinkedIn - Letícia Lopes](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leticia-malagola-lopes/)
 #### LinkedIn - Bianca Vidal
 [![LinkedIn - Bianca Vidal](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bividal/)
 #### LinkedIn - Yasmin Souza
