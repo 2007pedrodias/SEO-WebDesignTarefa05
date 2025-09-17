@@ -1,77 +1,124 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
-  <meta charset="UTF-8">
-  <!-- charset bem definido, evita problemas de indexação de caracteres -->
+    <title>Sobre Faculdade Labubônicos</title> 
+    <!-- O <title> é essencial para SEO, pois define o título que aparece nos resultados de busca. -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- torna o site responsivo (mobile-friendly), fator importante para SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- O viewport melhora a experiência mobile, o que é fator de ranqueamento. -->
 
-  <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Página de Administração da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação.">
+    <!-- A meta description é importante, pois aparece no snippet do Google e influencia o CTR. -->
 
-  <title>Página agradecimento</title>
-  
-  <!-- Google Analytics -->
-  <!-- permite acompanhar tráfego e comportamento, ajudando na estratégia de SEO -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-HS2MR5GF9L');
-  </script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Media query -->
+    <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 960px)" href="media.css" />
+    <!-- Layout responsivo é positivo para SEO, já que o Google prioriza sites mobile-friendly. -->
+    
+    <!-- Meta Tags das redes sociais -->
+    <meta property="og:title" content="Página Administração da faculdade Labubônicos">
+    <meta property="og:description" content="Página Administração da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
+    <meta property="og:image" content="icone.png">
+    <meta property="og:url" content="https://seo-web-design-tarefa05.vercel.app/computacao.html">
+    <!-- As tags Open Graph ajudam no compartilhamento em redes sociais, aumentando o tráfego orgânico indireto. -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Ter favicon melhora a credibilidade e pode aparecer em resultados de busca no mobile. -->
+
+    <title>Sobre Faculdade Labubônicos</title>
+
+     <!-- Google Analytics para monitoramento de acessos -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS2MR5GF9L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HS2MR5GF9L');
+    </script>
+    <!-- Permite medir tráfego e entender comportamento dos usuários, o que ajuda em ajustes de SEO. -->
 </head>
 
 <body>
-  <header>
-    <header class="cabecalho">
+<header class="cabecalho">
     <h1>Faculdade Labubônicos</h1>
-    <!-- bom uso do <h1>, define o tema principal da página -->
+    <!-- O <h1> é fundamental para SEO. Define o tema principal da página. -->
 
     <picture>
         <source type="image/webp" srcset="logo.webp">
         <img id="logo" src="logo.webp" alt="Logo da Faculdade Labubônicos">
-        <!-- uso de alt na imagem, importante para SEO e acessibilidade -->
     </picture>
+    <!-- O atributo alt na imagem é importante para SEO e acessibilidade. -->
+
     <p>Transformando conhecimento em futuro</p>
 
     <meta name="description" content="Página web da faculdade Labubônicos, uma faculdade fictícia criada para estudo e treino dos conceitos básicos de HTML e CSS da matéria de Web Design do curso de Engenharia da computação">
     
 </header>
 
-  <nav>
-    <!-- links internos ajudam na navegação e estruturação do site -->
+<nav>
+    <!-- Links internos com texto descritivo ajudam o Google a entender a estrutura do site. -->
     <a href="https://seo-web-design-tarefa05.vercel.app/">Página inicial</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/sobre.html">Sobre a instituição</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/cursos.html">Cursos oferecidos pela instituição</a>
     <a href="https://seo-web-design-tarefa05.vercel.app/contato.html">Contato e suporte</a>
-  </nav>
+</nav>
 
-  <div class="banner">
-    <h3>Muito obrigada por entrar em contato, <br> 
-        te retornaremos o mais breve possível! <br>
-        <br> <a href="/"> Página inicial </a>
-    </h3>
-    
-  </div>
+<div class="banner">
+    <h2>Curso de Administração</h2>
+    <!-- O <h2> ajuda na hierarquia de títulos (subtópico do H1). -->
+</div>
 
+<section>
+    <h2 class="titulodiv">Administração</h2>
+    <!-- Bom uso de heading tags para organização do conteúdo. -->
+
+    <h3>Resumo</h3>
+    <p>Prepara profissionais para desenvolver sistemas, softwares e soluções de alta complexidade em tecnologia da informação.</p>
+    <!-- Texto descritivo com palavras-chave relevantes ("sistemas", "tecnologia da informação", etc.). -->
+
+    <h3>Corpo docente</h3>
+    <p>
+        <ul>
+            <li><strong> Prof. Dr. Thiago Ribeiro  </strong> – Coordenador. Doutor em Inteligência Artificial pela USP.</li>
+            <li><strong> Profa. Me. Camila Duarte </strong> – Segurança da Informação.</li>
+            <li><strong> Prof. Me. Leonardo Alves </strong> – Engenharia de Software.</li>
+        </ul>
+    </p>
+
+    <h3>Principais disciplinas</h3>
+    <p>
+        <ul>
+            <li>Algoritmos</li>
+            <li>Banco de Dados</li>
+            <li>Programação Avançada</li>
+            <li>Inteligência Artificial</li>
+            <li>Redes de Computadores</li>
+        </ul>
+    </p>
+    <!-- Palavras-chave específicas (disciplinas) ajudam no ranqueamento para buscas relacionadas. -->
+
+    <h3>Mensalidade</h3>
+    <p><strong><span class="praticacursos">Valor da mensalidade:</span></strong> R$ 1100,00</p>
+</section>
 </body>
 
-<footer>
+<footer class="rodape">
     <p>&copy; 2025 Faculdade Labubônicos - Todos os direitos reservados</p>
     <p>Endereço: Rua da Educação, 123 - Cidade Labubônicos | Telefone: (00) 1234-5678</p>
     <p>
         <a href="https://seo-web-design-tarefa05.vercel.app/sitemap.xml">Sitemap</a> |
-        <!-- sitemap ajuda o Google a indexar o site -->
+        <!-- Sitemap facilita a indexação do site pelo Google. -->
 
         <a href="https://facens.br/mais-informacoes/politica-de-privacidade/">Política de Privacidade</a> |
-        <!--política de privacidade transmite confiança e pode influenciar SEO -->
+        <!-- Ter política de privacidade passa confiança e pode ser fator de SEO. -->
 
         <a href="https://www.facebook.com/facens/?locale=pt_BR" target="_blank" rel="noopener noreferrer">Facebook</a> |
         <a href="https://www.instagram.com/instafacens/" target="_blank" rel="noopener noreferrer">Instagram</a> |
         <a href="https://br.linkedin.com/company/facens" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <!--links externos para redes sociais reforçam a autoridade e presença digital -->
+        <!-- Links para redes sociais fortalecem a autoridade da marca. -->
     </p>
 </footer>
-
 </html>
